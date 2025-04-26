@@ -157,9 +157,9 @@ Merged from 4 CSV files:
 
 ### 🛠 Tools
 
-- Python (pandas, matplotlib, seaborn)  - 📄 [Python-ноутбук по EDA](Pizza%20Sales%20Analysis.ipynb)
-- MySQL  - 🧩 [SQL-запросы для расчета метрик](Pizza%20sales%20SQL%20queries.docx)
-- Power BI Desktop - 📊 [Дашборд Power BI](pizza%20restaurant%20sales.pbix)
+- Python (pandas, matplotlib, seaborn)  - 📄 [Pizza Sales Analysis](Pizza%20Sales%20Analysis.ipynb)
+- MySQL  - 🧩 [Pizza sales SQL queries](Pizza%20sales%20SQL%20queries.pdf)
+- Power BI Desktop - 📊 [Pizza Restaurant sales](pizza%20restaurant%20sales.pbix)
 
 ---
 
