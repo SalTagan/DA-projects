@@ -84,7 +84,7 @@
 
 ## 🇬🇧 English Version
 
-This project presents a full-cycle sales analysis for a fictional pizza restaurant using **Python**, **SQL**, and **Power BI**.  
+This project presents a full-cycle sales analysis for a fictional pizza restaurant using "Python", "SQL", and "Power BI".  
 It includes data cleaning, KPI calculation, query-based insights, and interactive dashboarding.
 
 ---
@@ -101,7 +101,7 @@ It includes data cleaning, KPI calculation, query-based insights, and interactiv
 
 ### 📊 Dataset
 
-Merged from 3 CSV files:
+Merged from 4 CSV files:
 
 - `orders.csv` — order dates and IDs  
 - `order_details.csv` — pizza items in each order  
@@ -157,9 +157,9 @@ Merged from 3 CSV files:
 
 ### 🛠 Tools
 
-- Python (pandas, matplotlib, seaborn)  
-- MySQL  
-- Power BI Desktop
+- Python (pandas, matplotlib, seaborn)  - 📄 [Python-ноутбук по EDA](Pizza%20Sales%20Analysis.ipynb)
+- MySQL  - 🧩 [SQL-запросы для расчета метрик](Pizza%20sales%20SQL%20queries.docx)
+- Power BI Desktop - 📊 [Дашборд Power BI](pizza%20restaurant%20sales.pbix)
 
 ---
 
