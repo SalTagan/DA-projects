@@ -63,11 +63,11 @@
 ## Этап 3. Создание мер (DAX)
 
 ### Основные KPI:
-- **TotalEmployees** — количество сотрудников  
-- **ActiveEmployees** — сотрудники с `Attrition = "No"`  
-- **InactiveEmployees** — сотрудники с `Attrition = "Yes"`  
-- **% Attrition Rate** — показатель текучести персонала  
-- **AverageSalary** — средняя зарплата сотрудников  
+- **TotalEmployees** - количество сотрудников  
+- **ActiveEmployees** - сотрудники с `Attrition = "No"`  
+- **InactiveEmployees** - сотрудники с `Attrition = "Yes"`  
+- **% Attrition Rate** - показатель текучести персонала  
+- **AverageSalary** - средняя зарплата сотрудников  
 
 ### Меры с USERELATIONSHIP():
 - `EnvironmentSatisfaction`  
@@ -76,12 +76,12 @@
 - `WorkLifeBalance`  
 
 ### Performance Review:
-- **LastReviewDate** — дата последнего ревью  
-- **NextReviewDate** — дата следующего ревью  
-- **SelfRating** и **ManagerRating** — значения рейтингов по неактивным связям  
+- **LastReviewDate** - дата последнего ревью  
+- **NextReviewDate** - дата следующего ревью  
+- **SelfRating** и **ManagerRating** - Самооценка и оценка руководителя 
 
 ### Меры по дате:
-- **TotalEmployeesDate** — с использованием USERELATIONSHIP  
+- **TotalEmployeesDate** - с использованием USERELATIONSHIP  
 - **InactiveEmployeesDate**  
 - **% Attrition Rate Date**
 
@@ -93,8 +93,9 @@
 
 - Карточки: TotalEmployees, ActiveEmployees, InactiveEmployees - Всего сотрудников, Активные сотрудники, Неактивные сотрудники
 - Карточка: % Attrition Rate - Уровень текучести персонала
-- График “Employee Hiring Trends” (TotalEmployeesDate by Date) - Тренды найма сотрудников
-- Разделение сотрудников на Active / Inactive - Активные vs Неактивные
+- График “Employee Hiring Trends”  - Тренды найма сотрудников
+- График "Active Employee by Department" - Активные сотрудники по отделам
+- График "Active Employees by Department and JobRole" - Активные сотрудники по отделам и должностям
 
 <img width="905" height="511" alt="image" src="https://github.com/user-attachments/assets/09f6423b-010a-484a-a2cb-7a6c5bcc44e6" />
 
@@ -110,7 +111,6 @@
 
 #### Прочая демография:
 - График "Employees by Marital Status" - Сотрудники по семейному положению  
-- AverageSalary (карточка) - Средняя зарплата 
 - "Employees by Ethnicity and Average Salary" - Сотрудники по этническим группам и средней зарплате
 
 <img width="902" height="506" alt="image" src="https://github.com/user-attachments/assets/05dbd32e-c303-4210-b093-21d24ce396b4" />
@@ -119,9 +119,8 @@
 
 ### Страница 3 — *Performance Tracker*
 
-- Вычисляемый столбец: FullName  -  Фамилия Имя 
 - Слайсер: Select employee - Выбор сотрудника
-- Карточки: Last Review, Next Review  - Последнее ревю, Следующее ревю
+- Карточки: Start Date, Last Review, Next Review  - Дата приема на работу, Последнее ревю, Следующее ревю
 - Графики удовлетворённости:
   - EnvironmentSatisfaction - Удовлетворённость рабочей средой 
   - JobSatisfaction - Удовлетворённость работой 
