@@ -111,7 +111,7 @@
 
 #### Прочая демография:
 - График "Employees by Marital Status" - Сотрудники по семейному положению  
-- "Employees by Ethnicity and Average Salary" - Сотрудники по этническим группам и средней зарплате
+- График "Employees by Ethnicity and Average Salary" - Сотрудники по этническим группам и средней зарплате
 
 <img width="902" height="506" alt="image" src="https://github.com/user-attachments/assets/05dbd32e-c303-4210-b093-21d24ce396b4" />
 
